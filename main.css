@@ -1,0 +1,107 @@
+html{
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 10px;
+    height: 100vh;
+    width: 100vw;
+    background: #222;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+div{
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#mainContainer{
+    background: #555;
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    grid-template-rows: 100%;
+    overflow: hidden;
+}
+
+#itemsContainer{
+    background: #777;
+    display: inline-grid;
+}
+
+#workContainer{
+    background: #888;
+    display: inline-grid;
+}
+
+#userContainer{
+    background: #999;
+    display: inline-grid;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 60%;
+}
+
+#userInfo{
+    background: #333;
+    /*height: 40%;*/
+}
+
+#chatContainer{
+    background: #222;
+    /*height: 40%;*/
+}
+
+#chatAreaContainer{
+    background: #333;
+    height: calc(100% - 30px);
+}
+
+#chatArea{
+    background: #BBB;
+    overflow: scroll;
+}
+
+#chatControlsContainer{
+    background: #333;
+    height: 30px;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+#chatInput{
+    display: inline-grid;
+}
+
+#chatBotonEnviar{
+    display: inline-grid;
+}
+
+
+.chatMsg{
+    height: auto;
+    border: solid 1px;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 3px;
+    max-width: 80%;
+    overflow-wrap: break-word;
+}
+
+.sysMsg{
+    width: 100%;
+    text-align: center;
+}
+
+.myMsg{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.yourMsg{
+    max-width: 80%;
+}
