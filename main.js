@@ -1,5 +1,5 @@
 mensaje = "";
-websocket = new WebSocket("ws://127.0.0.1:6789/");
+websocket = new WebSocket("ws://170.253.15.165:6789/");
 var id_cliente = undefined;
 
 function gi(t){
